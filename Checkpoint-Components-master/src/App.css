@@ -1,0 +1,15 @@
+#intro-section {
+    display: flex;
+  
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px 130px;
+  }
+  
+  #intro-section > img {
+    border-radius: 50%;
+  }
+  #intro-section > img:hover {
+    transform: rotate(720deg);
+    transition: 0.8s;
+  }
